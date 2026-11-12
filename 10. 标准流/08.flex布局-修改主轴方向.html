@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>flex布局-修改主轴方向</title>
+<style>
+.box {
+  display: flex;
+  /* ✅ 红框重点：flex-direction: column */
+  /* 把主轴改成【垂直方向（从上往下）】，侧轴自动变成【水平方向】 */
+  flex-direction: column;
+
+  /* justify-content：控制【主轴】对齐，现在主轴是竖直，所以是垂直居中 */
+  justify-content: center;
+
+  /* align-items：控制【侧轴】对齐，现在侧轴是水平，所以是水平居中 */
+  align-items: center;
+
+  width: 150px;
+  height: 120px;
+  background-color: pink;
+}
+img {
+  width: 32px;
+  height: 32px;
+}
+</style>
+</head>
+<body>
+  <div class="box">
+    <img src="../扣完的贴纸图 (1).png" alt="">
+  </div>
+</body>
+</html>
