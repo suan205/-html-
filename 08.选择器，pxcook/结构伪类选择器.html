@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>结构伪类选择器，基本使用</title>
+    <style>
+        /* diyg */
+        /* li:first-child {
+            background-color: green;
+        } */
+
+        /* 最后一个 */
+        /* li:last-child {
+            background-color: red;
+        } */
+
+        /* 任意个
+        li:nth-child(3) {
+            background-color: blue;
+        } */
+
+         /* 选中偶数li
+        li:nth-child(2n) {
+        background-color: green;
+        } */
+
+        /* 选中奇数li
+        li:nth-child(2n+1) {
+        background-color: pink;
+        } */
+
+        /* 选中5的倍数
+        li:nth-child(5n) {
+        color: red;
+        } */
+
+        /* 从0开始，第5个及之后所有
+        li:nth-child(n+5) {
+        font-size: 20px;
+        } */
+
+        /* 前5个
+        li:nth-child(-n+5) {
+        border:1px solid #000;
+        } */
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>li 1</li>
+        <li>li 2</li>
+        <li>li 3</li>
+        <li>li 4</li>
+        <li>li 5</li>
+        <li>li 6</li>
+        <li>li 7</li>
+        <li>li 8</li>
+    </ul>
+</body>
+</html>

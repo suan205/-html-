@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>显示模式</title>
+    <!-- 块级：独占一行；宽度默认是父级的100%；加宽高是生效的 -->
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+
+            /* display: inline-block; */
+            display: inline;
+            
+        }
+
+        .div1 {
+            background-color: red;
+        }
+
+        .div2 {
+            background-color: blue;
+
+            display: block;
+        }
+
+         .span1 {
+            background-color: red;
+        }
+
+        .span2 {
+            background-color: blue;
+
+           
+        }
+
+        /* 行内：一行共有多个，尺寸由内容撑开，加宽高不生效 */
+        img {
+             width: 100px;
+            height: 100px;
+            
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- 块元素 -->
+    <div class="div1">div 标签</div>
+    <div class="div2">div 标签</div>
+    <!-- 行内元素 -->
+    <span class="span1">span11111</span>
+    <span class="span2">span1</span>
+    <!-- 行内块元素 -->
+     <img src="./拆分写法.html/ccceb2f022ee0b9f6bb9d2bb1f1b8a1a.png" alt="" >
+     <img src="./拆分写法.html/ccceb2f022ee0b9f6bb9d2bb1f1b8a1a.png" alt="" >
+</body>
+</html>
